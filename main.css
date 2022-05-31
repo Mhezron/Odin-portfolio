@@ -28,6 +28,10 @@ li{
     display: inline;
     padding: 8px;
     margin: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 20%;
+    box-shadow: 3px 3px 8px 0 #000;
+    text-align: center;
 }
 
 li a{
@@ -47,7 +51,7 @@ a:active{
 
 .header-content{
     width: 600px;
-	height: 500px;
+	height: 300px;
 }
 h1{
     color: white;
@@ -64,17 +68,17 @@ p{
 }
 
 .button{
-    color: whitesmoke;
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: #1F2937;;
+    border: 2px solid whitesmoke;
     box-shadow: 3px 3px 8px 0 #000;
-    width: 14%;
-	border-radius: 5px;
+    width: 25%;
+	border-radius: 50px;
     text-align: center;
     margin-left: 90px;
     font-family: cursive;
     text-decoration: none;
-
+    font-weight: bold;
+    height: 10%;
 }
 
     
@@ -87,6 +91,9 @@ h2{
     text-align: center;
     color: black;
     font-family: cursive;
+    text-shadow: 1px 1px black;
+    padding-bottom: 100px;
+
 }
 .content-section{
     
@@ -99,10 +106,48 @@ h2{
     border-radius: 5px;
     background-color: aquamarine;
     font-family: cursive;
-    color: #1F2937;
+    color: #FF80AA;
     border-color: #1F2937;
     box-shadow: 3px 3px 8px 0 #000;
     padding:70px;
-    margin: 65px;
+    margin: 60px;
     position: relative;
+    font-weight: bold;
+}
+
+.connect{
+    color:#1F2937;
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    display: box;
+    text-align: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color:whitesmoke;
+}
+
+.button2{
+    color: #FF80AA;
+    background-color: aquamarine;
+    border: 2px solid whitesmoke;
+    box-shadow: 3px 3px 8px 0 #000;
+    width: 20%;
+    height: 20%;
+	border-radius: 50px;
+    text-align: center;
+    margin-left: 90px;
+    font-family: cursive;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
